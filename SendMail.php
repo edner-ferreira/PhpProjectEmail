@@ -15,7 +15,7 @@
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'joao.sauro25081988@gmail.com';
-            $mail->Password = 'mxoiwcjxkgrpeatg';
+            $mail->Password = '###################';
             $mail->Port = 587;
 
             $mail->setFrom('joao.sauro25081988@gmail.com');
@@ -99,8 +99,8 @@
 ////Fill in authentication details here
 ////Either the gmail account owner, or the user that gave consent
 //$email = 'joao.sauro25081988@gmail.com';
-//$clientId = '232645657374-v0onpr343gdqqml1ps5ue4l59buqno5i.apps.googleusercontent.com';
-//$clientSecret = 'VACMlVH15FM06yde0n3KEUjV';
+//$clientId = '##################################';
+//$clientSecret = '######################';
 //
 ////Obtained by configuring and running get_oauth_token.php
 ////after setting up an app in Google Developer Console.
@@ -179,17 +179,17 @@
 //            $mail->SMTPAuth = true;
 //            //$mail->AuthType = 'XOAUTH2';
 //            $mail->Username = 'joao.sauro25081988@gmail.com';
-//            $mail->Password = 'mxoiwcjxkgrpeatg';
+//            $mail->Password = '#####################';
 //
-//            //$mail->Password = 'mxoiwcjxkgrpeatg';
+//            //$mail->Password = '####################';
 //            $mail->Port = 587;
 //
 //            $mail->setFrom('joao.sauro25081988@gmail.com');
 //            
 //            $mail->addAddress($email);
 //
-//            //232645657374-v0onpr343gdqqml1ps5ue4l59buqno5i.apps.googleusercontent.com
-//            //VACMlVH15FM06yde0n3KEUjV
+//            //######################################.apps.googleusercontent.com
+//            //#######################
 //            $mail->isHTML(true);
 //            $mail->CharSet = PHPMailer::CHARSET_UTF8;
 //            $mail->Subject = 'Teste de email api de email do PHP';
